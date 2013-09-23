@@ -67,17 +67,80 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 9, ../_sass/screen.scss */
-.title {
-  font-family: 'Futura';
-  text-transform: uppercase;
+/*
+Layout
+*/
+/* line 16, ../_sass/screen.scss */
+a {
+  text-decoration: none;
 }
-/* line 12, ../_sass/screen.scss */
+
+/* line 20, ../_sass/screen.scss */
+.site {
+  top: 0;
+  width: 100%;
+}
+
+/* line 25, ../_sass/screen.scss */
+.title {
+  padding-top: 100px;
+  width: 50%;
+  margin: 0 auto;
+}
+/* line 29, ../_sass/screen.scss */
 .title a {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-family: 'Futura';
   color: white;
 }
 
-/* line 17, ../_sass/screen.scss */
-body {
+/* line 36, ../_sass/screen.scss */
+.header {
   background: #b22d00;
+  height: 300px;
+  width: 100%;
+}
+
+/* line 42, ../_sass/screen.scss */
+.footer {
+  background: #b22d00;
+  height: 300px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+/* line 48, ../_sass/screen.scss */
+.footer .contact {
+  width: 20%;
+  position: absolute;
+  right: 100px;
+}
+/* line 52, ../_sass/screen.scss */
+.footer .contact a {
+  font-family: 'Futura';
+  color: white;
+}
+
+/*
+Index
+*/
+/* line 60, ../_sass/screen.scss */
+#home {
+  padding: 50px;
+}
+/* line 62, ../_sass/screen.scss */
+#home h1, #home p {
+  font-family: 'Baskerville';
+}
+/* line 66, ../_sass/screen.scss */
+#home h1 {
+  font-size: 28px;
+  line-height: 40px;
+}
+/* line 71, ../_sass/screen.scss */
+#home p {
+  width: 300px;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }

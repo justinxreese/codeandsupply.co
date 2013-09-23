@@ -5,15 +5,72 @@
 
 @import "compass/reset";
 $red: #b22d00;
+@mixin brand-font {
+  font-family: 'Futura';
+  color: white;
+};
+
+/*
+Layout
+*/
+a {
+  text-decoration: none;
+}
+
+.site {
+  top: 0;
+  width: 100%;
+}
 
 .title {
-  font-family: 'Futura';
-  text-transform: uppercase;
+  padding-top: 100px;
+  width: 50%;
+  margin: 0 auto;
   a {
-    color: white;
+    font-size: 32px;
+    text-transform: uppercase;
+    @include brand-font;
   }
 }
 
-body {
+.header {
   background: $red;
+  height: 300px;
+  width: 100%;
+}
+
+.footer {
+  background: $red;
+  height: 300px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+  .contact {
+    width: 20%;
+    position: absolute;
+    right: 100px;
+    a {
+      @include brand-font;
+    }
+  }
+}
+/*
+Index
+*/
+#home {
+  padding: 50px;
+  h1,p {
+    font-family: 'Baskerville';
+  }
+
+  h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  p {
+    width: 300px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
 }
