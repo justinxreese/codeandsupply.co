@@ -69,10 +69,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 9, ../_sass/screen.scss */
 .title {
-  color: #b22d00;
+  font-family: 'Futura';
+  text-transform: uppercase;
+}
+/* line 12, ../_sass/screen.scss */
+.title a {
+  color: white;
 }
 
-/* line 13, ../_sass/screen.scss */
+/* line 17, ../_sass/screen.scss */
 body {
   background: #b22d00;
 }

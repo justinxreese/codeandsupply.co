@@ -7,7 +7,11 @@
 $red: #b22d00;
 
 .title {
-  color: $red;
+  font-family: 'Futura';
+  text-transform: uppercase;
+  a {
+    color: white;
+  }
 }
 
 body {
